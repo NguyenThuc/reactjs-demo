@@ -1,0 +1,25 @@
+import React from 'react'
+import data from './sampleMovieData'
+import DataTable from 'react-data-table-component'
+
+const columns = [
+  {
+    name: 'Title',
+    selector: (row) => row.title,
+    sortable: true,
+  },
+  {
+    name: 'Director',
+    selector: (row) => row.director,
+    sortable: true,
+  },
+  {
+    name: 'Year',
+    selector: (row) => row.year,
+    sortable: true,
+  },
+]
+export function ListUser() {
+  return <DataTable title="Users" columns={columns} data={data} pagination />
+}
+export default ListUser
