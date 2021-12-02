@@ -52,7 +52,8 @@
     "react-sortable-tree-patch-react-17": "^2.9.0",
     "redux": "4.1.1",
     "simplebar-react": "^2.3.5",
-    "styled-components": "^5.3.3"
+    "styled-components": "^5.3.3",
+    "yarm": "^0.4.0"
   },
   "devDependencies": {
     "auto-changelog": "~2.3.0",
