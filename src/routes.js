@@ -57,7 +57,7 @@ const routes = [
   { path: '/dashboard', name: 'Dashboard', component: Dashboard },
   { path: '/theme/typography', name: 'Typography', component: Typography },
   { path: '/base', name: 'Base', component: Cards, exact: true },
-  { path: '/base/accordion', name: 'Accordion', component: Accordion },
+  { path: '/base/accordion', name: 'Accordion', component: Accordion, exact: true },
   { path: '/base/breadcrumbs', name: 'Breadcrumbs', component: Breadcrumbs },
   { path: '/base/cards', name: 'Cards', component: Cards },
   { path: '/base/carousels', name: 'Carousel', component: Carousels },
