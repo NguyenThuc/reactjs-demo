@@ -59,7 +59,6 @@ const firstNames = [
 export default class App extends Component {
   constructor(props) {
     super(props)
-
     this.state = {
       treeData: [{ title: 'Peter Olofsson' }, { title: 'Karl Johansson' }],
       addAsFirstChild: false,
